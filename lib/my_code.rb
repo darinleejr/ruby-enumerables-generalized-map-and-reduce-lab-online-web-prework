@@ -4,4 +4,5 @@ def map(array)
   map = array.map { |n| n * -1}
 end
 
-def map
+def map(dune)
+  dune = 
