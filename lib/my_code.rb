@@ -28,6 +28,13 @@ def reduce(source_array)
   reduce = source_array.reduce { |memo, n| memo + n}
 end
 
+def reduce(source_array, starting_point)
+  source_array = [1, 2, 3]
+  starting_point = 100
+  
+  reduce = source_array.reduce(100) { |memo, n| memo + n}
+end
+
 
   
   
