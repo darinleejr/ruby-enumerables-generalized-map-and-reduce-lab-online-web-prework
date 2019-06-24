@@ -41,3 +41,10 @@ def reduce(source_array)
   reduce = source_array.reduce { |memo, n| memo && n}
 end
 
+def reduce(source_array)
+  source_array = [1, 2, true, "razmatazz", false]
+  reduce = {|memo, n| memo && n}
+end
+
+  
+  
