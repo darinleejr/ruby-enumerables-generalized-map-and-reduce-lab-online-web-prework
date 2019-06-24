@@ -10,15 +10,5 @@ def map(dune)
   map = dune.map { |n| n}
 end
 
-def map(array)
-  array = [1, 2, 3, -9]
-  
-  map = array.map { |n| n * 2}
-end
 
-def map(array)
-  array [1, 2, 3, -9]
-  
-  map = array.map { |n| n * n }
-end
 
