@@ -4,7 +4,7 @@ def map(array)
   map = array.map { |n| n * -1}
 end
 
-def map(dune)
+def map_org(dune)
   dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
   
   map = dune.map { |n| n}
