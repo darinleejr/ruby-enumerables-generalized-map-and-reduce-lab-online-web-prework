@@ -1,8 +1,8 @@
 def map(array)
   new = []
   i = 0
-  while i < source_array.length do
-    new.push( source_array[i] * -1 )
+  while i < array.length do
+    new.push( array[i] * -1 )
     i += 1
   end
 end
