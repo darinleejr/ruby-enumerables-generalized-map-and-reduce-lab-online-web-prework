@@ -19,6 +19,6 @@ end
 def map(array)
   array [1, 2, 3, -9]
   
-  map = array.map { |n| * n }
+  map = array.map { |n| n * n }
 end
 
