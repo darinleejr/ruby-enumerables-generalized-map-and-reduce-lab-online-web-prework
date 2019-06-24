@@ -54,5 +54,8 @@ def reduce(source_array)
   reduce = source_array.reduce(true) {|n| n}
 end
 
-
+def reduce(source_array)
+  source_array = [ false, nil, nil, nil]
   
+  reduce = source_array.reduce(false) { |n| n }
+end
