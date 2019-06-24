@@ -1,8 +1,8 @@
 def map(array)
-  array = [1, 2, 3, -9]
+  new = []
   i = 0
-  
-  while i < array do
-    |n| n * -1
+  while i < source_array.length do
+    new.push( source_array[i] * -1 )
+    i += 1
   end
 end
