@@ -1,8 +1,6 @@
-def map(array)
-  new = []
-  i = 0
-  while i < array.length do
-    new.push( array[i] * -1 )
-    i += 1
+def map_negativize(array)
+  array = [1, 2, 3, -9]
+  
+  map_negativize = array.map { |n| n * -1}
   end
 end
